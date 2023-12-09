@@ -1,12 +1,19 @@
+'''
+pip intall mediapipe
+pip install scikit-learn mcpi 
+pip install pyobjc-framework-Quartz
+pip install git+https://github.com/boppreh/mouse.git
+
+'''
+
+
 import cv2
 import mediapipe as mp
 import numpy as np
 import time
 import os
 import mcpi.minecraft as minecraft 
-import pyautogui 
 import math
-import pynput
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.neural_network import MLPClassifier
